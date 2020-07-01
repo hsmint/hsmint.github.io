@@ -1,0 +1,6 @@
+{{ $read := math.Round (div (countwords .Content) 200.0) }}
+{{- if le $read 1 -}}
+    1 minute read
+{{- else -}}
+    {{ $read }} min read
+{{- end -}}

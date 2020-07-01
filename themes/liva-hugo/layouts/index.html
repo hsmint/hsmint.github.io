@@ -79,6 +79,7 @@
                   <span class="border-bottom border-primary px-2 mx-1"></span>
                   <span>{{ .PublishDate.Format "02 January 2006" }}</span>
                   {{ end }}
+                  <span class="align-text-bottom px-3">{{ partial "time-to-read.html" . }}</span> 
                 </div>
                 {{ if .Description | markdownify }}
                 <p class="card-text">{{ .Description | markdownify }}</p>
