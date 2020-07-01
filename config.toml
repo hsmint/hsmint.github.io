@@ -67,10 +67,10 @@ enableEmoji = false
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/hsmint.png"
 home = "Home"
 author = "HSMINT"
-
+description = "A Blog of Hsmint"
 #################### Copy Rights ################################
 # copyright
 copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
