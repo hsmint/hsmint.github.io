@@ -79,3 +79,22 @@
   page-break-after: 10px;
   font-size: 20px;
 }
+
+.paging {
+  margin-top: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  text-align: center;
+
+  a {
+    color: $text-color;
+  }
+  
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}

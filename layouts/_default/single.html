@@ -16,7 +16,7 @@
         <div class="content">
           {{ .Content }}
         </div>
-        <div class="paging post-paging">
+        <div class="paging">
           {{ if ne .Params.prevp "" }}
           {{ range where .Site.RegularPages "Title" "eq" (.Params.prevp | title) }}
           <a class="left" href="{{ .Permalink }}" rel="prev">
