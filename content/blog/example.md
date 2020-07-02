@@ -16,6 +16,10 @@ prevp: ""
 ##### Heading 5
 ###### Heading 6
 
+`$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $`
+
+{{< gist test 2-4 >}}
+
 <hr>
 
 ##### Emphasis

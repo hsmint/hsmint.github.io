@@ -1,0 +1,2 @@
+{{ $gistid := (index $.Site.Data.gist (.Get 0 )) }}
+<code class="gist" data-gist-id="{{ $gistid }}" data-gist-line="{{.Get 1 }}"></code>

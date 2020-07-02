@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "HSMINT's BLOG"
 theme = "liva-hugo"
 enableEmoji = false
+paginate = 6
+disqusShortname = "hsmints-blog"
+googleAnalitycsID = "UA-171554028-1"
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -26,8 +29,8 @@ enableEmoji = false
   URL = "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
   # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
+  #[[params.plugins.js]]
+  #URL = "plugins/jQuery/jquery.min.js"
   [[params.plugins.js]]
   URL = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
@@ -40,7 +43,6 @@ enableEmoji = false
   URL = "plugins/search/mark.js"
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
-
   
 ############################## navigation ###############################
 [menu]
@@ -73,6 +75,7 @@ logo = "images/hsmint.png"
 home = "Home"
 author = "HSMINT"
 description = "A Blog of Hsmint"
+
 #################### Copy Rights ################################
 # copyright
 copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"

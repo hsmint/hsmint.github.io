@@ -221,9 +221,6 @@
 
 /* markdown style */
 .content {
-  * {
-    margin-bottom: 20px;
-  }
   h1,
   h2,
   h3,
@@ -235,11 +232,13 @@
 
   ol {
     padding-left: 20px;
+    li {
+      margin-bottom: 20px;
+    }
   }
 
   ul {
     padding-left: 0;
-
     li {
       position: relative;
       padding-left: 20px;
@@ -322,12 +321,36 @@
   }
 
   code {
-    padding: 3px 5px;
     background: $gray;
     border: 1px solid $border-color;
     border-radius: 3px;
   }
 
+  code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #000000;
+  }
+
+  code.gist {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #000000;
+
+    .highlight {
+      font-family: 'Nanum Gothic Coding';
+      font-size: 21px;
+    }
+    
+    .blob-code-inner {
+      font-family: 'Nanum Gothic Coding';
+      font-size: 21px;
+    }
+  }
 }
 
 /* /markdown style */
