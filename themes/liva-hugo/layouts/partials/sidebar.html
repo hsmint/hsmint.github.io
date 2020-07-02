@@ -7,7 +7,7 @@
     <img src="{{ .Params.Image | absURL }}" alt=""
       class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
     {{ end }}
-    <p>{{ .Description }}</p>
+    <p>{{ .Summary }}</p>
     <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
     {{ end }}
   </div>
@@ -50,7 +50,7 @@
     </ul>
   </div>
   <!-- advertisement -->
-  <!-- <div class="widget">
+  <div class="widget">
     <img src="{{`images/promotion.png` | absURL}}" alt="" class="img-fluid">
-  </div> -->
+  </div>
 </div>

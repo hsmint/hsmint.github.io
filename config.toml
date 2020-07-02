@@ -22,6 +22,8 @@ enableEmoji = false
   URL = "plugins/themify-icons/themify-icons.css"
   [[params.plugins.css]]
   URL = "plugins/venobox/venobox.css"
+  [[params.plugins.css]]
+  URL = "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
   # JS Plugins
   [[params.plugins.js]]

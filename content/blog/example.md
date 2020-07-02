@@ -6,6 +6,8 @@ image: "images/post/post-3.jpg"
 categories: ["Example"]
 tags: ["markdown", "css", "html", "themes"]
 type: "post"
+nextp: "Emoji Support"
+prevp: ""
 ---
 # Heading 1
 ## Heading 2

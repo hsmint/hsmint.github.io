@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <h1 class="markdown-title">{{ .Title | markdownify }}</h2>
+        <div class="mb-5 post-meta">
+          <span>By {{if .Params.Author}}{{ .Params.Author }}{{else}}{{.Site.Params.Author}}{{end}}</span>
+          {{ if not .Params.HideDate }}
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+          {{ end }}
+          <span class="px-3">{{ partial "time-to-read.html" . }}</span>
+        </div>
+        <div class="content">
+          {{ .Content }}
+        </div>
+        <div class="paging post-paging">
+          {{ if ne .Params.prevp "" }}
+          {{ range where .Site.RegularPages "Title" "eq" (.Params.prevp | title) }}
+          <a class="left" href="{{ .Permalink }}" rel="prev">
+            <i class="fa fa-play fa-rotate-180" aria-hidden="true"></i> <span>{{ .Title }}</span>
+          </a>
+          {{ end }}
+          {{ end }}
+          {{ if ne .Params.nextp "" }}
+          {{ range where .Site.RegularPages "Title" "eq" (.Params.nextp | title) }}
+          <a class="right" href="{{ .Permalink }}" rel="next">
+            <span>{{ .Title }}</span> <i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
+        <!-- comments -->
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

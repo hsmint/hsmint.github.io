@@ -6,6 +6,8 @@ image: "images/post/post-2.jpg"
 categories: ["Example"]
 tags: ["emoji"]
 type: post
+nextp: "Markdown Syntax Guide"
+prevp: "Example"
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways. 

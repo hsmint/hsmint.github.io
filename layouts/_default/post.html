@@ -1,0 +1,22 @@
+<div class="col-md-6 mb-4">
+    <article class="card">
+        {{ if .Params.Image }}
+        <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+        {{ end }}
+        <div class="card-body px-0">
+        <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
+        <div class="mb-3 post-meta">
+            <span>By {{ .Site.Params.Author }}</span>
+            {{ if not .Params.HideDate }}
+            <span class="border-bottom border-primary px-2 mx-1"></span>
+            <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+            {{ end }}
+            <span class="px-3">{{ partial "time-to-read.html" . }}</span>
+        </div>
+        {{ if .Description | markdownify }}
+        <p class="card-text">{{ .Description | markdownify }}</p>
+        {{ end }}
+        <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
+        </div>
+    </article>
+</div>

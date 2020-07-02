@@ -1,8 +1,41 @@
+{{ if .Site.Params.newsletter.enable }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>{{ .Site.Params.newsletter.title | markdownify }}</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          {{ .Site.Params.newsletter.content | markdownify }}</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
         <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:{{ .Site.Params.mobile }}"><i
+                class="ti-mobile mr-3 text-primary"></i>{{ .Site.Params.mobile }}</a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>{{ .Site.Params.location }}</li>
+          <li class="mb-3"><a class="text-dark" href="mailto:{{ .Site.Params.email }}"><i
+                class="ti-email mr-3 text-primary"></i>{{ .Site.Params.email }}</a>
+          </li>
+        </ul>
       </div>
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Social Contacts</h6>
@@ -42,7 +75,7 @@
 </footer>
 
 <script>
-  let indexURL = {{ "index.json" | absURL }}
+  var indexURL = {{ "index.json" | absURL }}
 </script>
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
