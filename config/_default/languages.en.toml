@@ -1,0 +1,23 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "HSMINT's BLOG"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "A Blog of Hsmint"
+  copyright = "© 2026 HSMINT"
+
+[params.author]
+  name = "HSMINT"
+  image = "images/selfy.png"
+  headline = "Student at Hanyang University ERICA"
+  bio = "I am a student in Hanyang Univ. ERICA, since 2019."
+  links = [
+    { github = "https://www.github.com/hsmint" },
+    { facebook = "https://www.facebook.com/hsmint" },
+  ]

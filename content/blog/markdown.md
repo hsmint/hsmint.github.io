@@ -2,12 +2,8 @@
 title: Markdown Syntax Guide
 date: 2020-07-01T06:07:07+09:00
 description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
-image: "images/post/post-1.jpg"
 categories: ["Example"]
 tags: ["markdown", "css", "html", "themes"]
-type: "featured"
-nextp: "Rich Content"
-prevp: "Emoji Support"
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

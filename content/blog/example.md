@@ -2,12 +2,8 @@
 title: "Example"
 date: 2020-07-01T06:04:58+09:00
 description: "Example in the theme"
-image: "images/post/post-3.jpg"
 categories: ["Example"]
 tags: ["markdown", "css", "html", "themes"]
-type: "post"
-nextp: "Emoji Support"
-prevp: ""
 ---
 # Heading 1
 ## Heading 2

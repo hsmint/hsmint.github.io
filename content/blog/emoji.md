@@ -2,12 +2,8 @@
 title: Emoji Support
 date: 2020-07-01T06:10:40+09:00
 description: Guide to emoji usage in Hugo
-image: "images/post/post-2.jpg"
 categories: ["Example"]
 tags: ["emoji"]
-type: post
-nextp: "Markdown Syntax Guide"
-prevp: "Example"
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways. 
@@ -30,7 +26,6 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 }
 {{< /highlight >}}
 
-{{< css.inline >}}
 <style>
 .emojify {
 	font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
@@ -44,4 +39,3 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 }
 }
 </style>
-{{< /css.inline >}}

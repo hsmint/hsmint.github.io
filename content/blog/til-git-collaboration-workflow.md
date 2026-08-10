@@ -2,12 +2,8 @@
 title: "[TIL] Git과 협업 워크플로우"
 date: 2026-08-05T21:00:00+09:00
 description: "KANT Level 1 · 4강 - Git 구조, merge와 rebase, 충돌 해결, PR 협업 사이클 핵심만 정리"
-image: "images/post/post-2.jpg"
 categories: ["TIL"]
 tags: ["git", "github"]
-type: "post"
-nextp: ""
-prevp: ""
 ---
 
 ## Git의 구조
