@@ -1,4 +1,4 @@
-baseURL = "https://blog.hsmint.dev/"
+baseURL = "https://hsmint.github.io/"
 languageCode = "en-us"
 title = "HSMINT's BLOG"
 theme = "liva-hugo"
