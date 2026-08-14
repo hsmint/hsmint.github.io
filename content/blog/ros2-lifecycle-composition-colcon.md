@@ -4,6 +4,7 @@ date: 2026-08-13 09:00:00 +0900
 categories: [TIL, ROS2]
 tags: [ros2, colcon, lifecycle, composition, launch, cmake, setup-bash, symlink-install]
 description: "ROS2의 Lifecycle Node·Composition·Launch 개념을 정리하고, colcon 빌드 후 실행이 되지 않던 문제를 실행 시점 환경변수 관점에서 해결한 기록. source install/setup.bash와 colcon 빌드 옵션 팁까지."
+type: "post"
 prev: ""
 next: ""
 ---
