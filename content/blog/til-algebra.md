@@ -2,7 +2,7 @@
 title: "[TIL] 로봇을 위한 선형대수 — 벡터·행렬 연산, 내적과 외적, Dimension과 Rank"
 date: 2026-08-18T21:00:00+09:00
 description: "벡터·행렬 연산의 의미부터 내적/외적의 차이, Dimension과 Rank를 정리한 기록"
-image: "images/post/til-linear-algebra-rank.png"
+image: "images/post/til-algebra.png"
 categories: ["TIL"]
 tags: ["mathematics"]
 type: "post"
