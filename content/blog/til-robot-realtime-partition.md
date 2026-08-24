@@ -6,7 +6,7 @@ image: "images/post/til-robot-realtime-partition.jpg"
 categories: ["TIL"]
 tags: ["robot", "concept"]
 type: "post"
-prevp: "til-quaternion-rotation"
+prevp: ""
 nextp: ""
 ---
 
