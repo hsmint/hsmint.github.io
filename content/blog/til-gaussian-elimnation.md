@@ -6,7 +6,7 @@ image: "images/post/til-2026-09-01-banner.png"
 categories: ["TIL"]
 tags: ["mathematics", "python"]
 type: "post"
-nextp: ""
+nextp: "til-homogeneous-transform"
 prevp: ""
 ---
 
