@@ -6,7 +6,7 @@ image: "images/post/til-2026-09-02-banner.png"
 categories: ["TIL"]
 tags: ["mathematics", "python"]
 type: "post"
-nextp: ""
+nextp: "til-axis-angle"
 prevp: "til-gaussian-elimnation"
 ---
 
