@@ -6,7 +6,7 @@ image: "images/post/til-2026-09-03-banner.png"
 categories: ["TIL"]
 tags: ["mathematics", "python"]
 type: "post"
-nextp: ""
+nextp: "til-rclcpp-const-shared-ptr"
 prevp: "til-homogeneous-transform"
 ---
 
